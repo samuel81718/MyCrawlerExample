@@ -22,7 +22,7 @@ public class BasicExample {
 		// 遠端資料路徑
 		String uri = "https://www.ptt.cc/bbs/LoL/M.1491701937.A.89C.html";
 
-		System.out.println(
+		System.out.println( 
 				CrawlerPack.start()
 				
 				// 參數設定
