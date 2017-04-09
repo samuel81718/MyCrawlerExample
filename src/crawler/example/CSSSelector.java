@@ -30,7 +30,7 @@ class CSSSelector {
         CrawlerPack.setLoggerLevel(SimpleLog.LOG_LEVEL_OFF);
 
         // 遠端資料路徑
-        String uri = "https://tw.yahoo.com";
+        String uri = "https://www.gamer.com.tw/";
 
         System.out.println(
                 CrawlerPack.start()
@@ -45,7 +45,7 @@ class CSSSelector {
                         //.getFromXml(uri)
 
                         // 這兒開始是 Jsoup Document 物件操作
-                        .select(" li:nth-child(2) > div > span > a > span")
+                        .select(" #gnn_head > div:nth-child(1) > div:nth-child(1) > a:nth-child(3)")
 
         );
     }
